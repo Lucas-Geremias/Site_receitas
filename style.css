@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    font-family: "Roboto", sans-serifs;
+}
+/* == header === */
+.header{
+    margin: 20px auto;
+    width: 50%;
+}
+.menu {
+    display: flex;
+}
+.menu img{
+    margin-right: 50px;
+}
+.menu ul {
+    list-style: none;
+}
+.menu li{
+    display: inline;
+    margin-left: 30px;
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #8b8b8b;
+    line-height:30px; 
+}
+
+/* == main == */
+.container{
+    margin: 20px auto;
+    width: 50%;
+    background: #fcd4e0;
+    border-radius: 20px;
+}
+.grid {
+	display: grid;
+}
+
+.logo {
+    grid-area: logo;
+    margin: 80px;
+}
+
+.nav {
+    grid-area: nav;
+    height: 100px;;
+}
+
+.sidenav {
+    grid-area: sidenav;
+    margin: 50px;
+}
+
+
+.grid-template-areas-1 {
+	grid-template-areas:
+		"logo nav nav"
+		"sidenav nav nav"
+	
+		;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MAIS ACESSADOS */
+.acessados{
+    margin: 20px auto;
+    width: 50%;
+}
+.acessados-filho{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.acessados img {
+    border-radius: 10px;
+    height:100px;
+    width: 220px;
+    margin-top: 10px;
+}
+.acessados p{
+    font-size: 13px;
+    color: #919090;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #e2e1e1;
+    color: #8b8b8b;
+    height: 50px;
+    width: 100%; 
+    line-height:50px;  
+     text-align:center 
+ 
+}
